@@ -110,16 +110,64 @@ li + li {
   font-weight: 400;
   font-size: 4em;
   color: #0a2640;
+  margin-bottom: 67px;
 }
 
 /*segunda sessão*/
 
 .section-dois {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
 }
 
 .segunda-img {
   max-width: 550px;
-  width: 386px;
-  margin-top: 67px;
+  max-height: 366px;
+  margin-right: 5.25em;
+}
+
+.img-dois {
+  width: 32px;
+  height: 32px;
+}
+
+.sub-texto-dois {
+  display: flex;
+  flex-direction: column;
+}
+
+.category {
+  font-size: 1em;
+  display: inline;
+  margin-bottom: 11px;
+}
+
+.category p {
+  font-weight: 400;
+  color: #777777;
+}
+
+.category p span {
+  font-weight: 700;
+  color: #0a2640;
+  margin-right: 12px;
+}
+
+.section-dois h2 {
+  font-weight: 400;
+  font-size: 2.8em;
+}
+
+.ip {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.ip img {
+  margin-right: 12px;
 }
