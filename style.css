@@ -69,6 +69,10 @@ li + li {
   justify-content: center;
 }
 
+.pizza {
+  display: none;
+}
+
 .logo {
   width: 26px;
   height: 33px;
@@ -159,6 +163,11 @@ li + li {
   font-size: 2.8em;
 }
 
+.sub-texto-dois {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .ip {
   display: flex;
   align-items: center;
@@ -169,4 +178,65 @@ li + li {
 
 .ip img {
   margin-right: 12px;
+}
+
+@media (max-width: 1024px) {
+  .section-dois {
+    flex-direction: column;
+    align-items: center;
+  }
+  .segunda-img {
+    margin-right: 0px;
+    margin-bottom: 45px;
+  }
+}
+
+@media (max-width: 660px) {
+  li + li {
+    margin-left: 2rem;
+  }
+}
+
+@media (max-width: 646px) {
+  .links ul {
+    display: none;
+  }
+  .links p {
+    display: none;
+  }
+  .pz {
+    background: #0a2640;
+    display: block;
+    width: 100%;
+    height: 5px;
+  }
+  .pz {
+    margin-bottom: 5px;
+  }
+  .pizza {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media (max-width: 555px) {
+  .segunda-img {
+    width: 100%;
+  }
+}
+@media (max-width: 645px) {
+  .titulo h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 485px) {
+  .titulo h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 405px) {
+  .titulo h1 {
+    font-size: 2rem;
+  }
 }
