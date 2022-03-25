@@ -213,7 +213,6 @@ li + li {
   .segunda-img {
     max-width: 510px;
     max-height: 314px;
-    margin-left: 2px;
   }
   .sub-texto-dois h2 {
     font-size: 2.5em;
@@ -221,6 +220,13 @@ li + li {
 }
 
 @media (max-width: 882px) {
+  .segunda-img {
+    max-width: 450px;
+    max-height: 264px;
+  }
+}
+
+@media (max-width: 809px) {
   .section-dois {
     flex-direction: column;
   }
@@ -285,5 +291,11 @@ li + li {
 @media (max-width: 405px) {
   .titulo h1 {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 362px) {
+  .sub-texto-dois h2 {
+    font-size: 1.8em;
   }
 }
