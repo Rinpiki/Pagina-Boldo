@@ -120,8 +120,8 @@ li + li {
 
 .section-dois {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   align-self: center;
 }
 
@@ -160,7 +160,7 @@ li + li {
 
 .section-dois h2 {
   font-weight: 400;
-  font-size: 2.8em;
+  font-size: 3.5em;
 }
 
 .sub-texto-dois {
@@ -180,9 +180,17 @@ li + li {
   margin-right: 12px;
 }
 
+.linha {
+  content: "";
+  display: block;
+  background: #0a2640;
+  width: 100%;
+  height: 2px;
+  margin-top: 72px;
+}
+
 @media (max-width: 1024px) {
   .section-dois {
-    flex-direction: column;
     align-items: center;
   }
   .segunda-img {
@@ -191,6 +199,30 @@ li + li {
   }
   .segunda-img {
     width: 100%;
+  }
+}
+
+@media (max-width: 1030px) {
+  .segunda-img {
+    max-width: 100px;
+    max-height: 306px;
+  }
+}
+
+@media (max-width: 1105px) {
+  .segunda-img {
+    max-width: 510px;
+    max-height: 314px;
+    margin-left: 2px;
+  }
+  .sub-texto-dois h2 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 882px) {
+  .section-dois {
+    flex-direction: column;
   }
 }
 
@@ -235,6 +267,9 @@ li + li {
 @media (max-width: 555px) {
   .segunda-img {
     width: 100%;
+  }
+  .sub-texto-dois h2 {
+    font-size: 1.9em;
   }
 }
 @media (max-width: 645px) {
