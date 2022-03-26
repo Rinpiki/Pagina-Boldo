@@ -163,6 +163,10 @@ li + li {
   font-size: 3.5em;
 }
 
+.hh2 {
+  margin-bottom: 20px;
+}
+
 .sub-texto-dois {
   display: flex;
   flex-wrap: wrap;
@@ -173,7 +177,6 @@ li + li {
   align-items: center;
   font-weight: 400;
   font-size: 16px;
-  margin-top: 20px;
 }
 
 .ip img {
@@ -188,6 +191,58 @@ li + li {
   height: 2px;
   margin-top: 72px;
 }
+
+/*css da segunda sessão*/
+
+.section-tres {
+  max-width: 998px;
+  margin: 0 auto;
+  margin-top: 95px;
+  flex-wrap: wrap;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-self: center;
+  justify-content: space-around;
+}
+
+.latestnews {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  display: block;
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+
+.cards {
+  width: 290px;
+  height: 424px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.cards .img-card {
+  width: 100%;
+  margin-bottom: 24px;
+}
+
+.cards h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.cards .ip {
+  display: flex;
+}
+
+/*media da segunda sessão*/
 
 @media (max-width: 1024px) {
   .section-dois {
@@ -299,3 +354,4 @@ li + li {
     font-size: 1.8em;
   }
 }
+/*media da primeira sessão*/
