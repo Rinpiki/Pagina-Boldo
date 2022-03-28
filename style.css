@@ -24,7 +24,7 @@ body {
 }
 
 .principal {
-  width: 90vw;
+  width: 85vw;
   align-items: center;
   justify-content: center;
   align-self: center;
@@ -60,6 +60,7 @@ li + li {
   border: 2px solid #0a2640;
   padding: 8px 40px 8px 40px;
   border-radius: 24px;
+  cursor: pointer;
 }
 
 .links {
@@ -67,6 +68,7 @@ li + li {
   font-size: 1rem;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .pizza {
@@ -242,6 +244,96 @@ li + li {
   display: flex;
 }
 
+.button {
+  border: 2px solid #0a2640;
+  background: white;
+  border-radius: 56px;
+  color: #0a2640;
+  padding: 16px 56px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: 0 auto;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+/*quarta sessão*/
+.section-quatro {
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 124px;
+  border-radius: 10px;
+  padding: 20px;
+  background: #0a2640;
+  margin-bottom: 200px;
+}
+
+.campo {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.campo h1 {
+  font-weight: 300;
+  font-size: clamp(1rem, 10vw, 3rem);
+  line-height: 62px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.inpu {
+  border: 2px solid #ffffff;
+  border-radius: 240px;
+  border: none;
+  width: 370px;
+  height: 50px;
+  margin-right: 24px;
+}
+
+.inpu::placeholder {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 56px;
+  border-radius: 240px;
+  border: none;
+  background: #65e4a3;
+  color: #0a2640;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  cursor: pointer;
+}
+/*quarta sessão*/
+
 /*media da segunda sessão*/
 
 @media (max-width: 1024px) {
@@ -355,3 +447,17 @@ li + li {
   }
 }
 /*media da primeira sessão*/
+
+/*media da quarta sessão*/
+@media (max-width: 632px) {
+  .inpu {
+    margin-right: 0px;
+    width: 300px;
+  }
+}
+@media (max-width: 779px) {
+  .inpu {
+    margin-bottom: 20px;
+  }
+}
+/*media da quarta sessão*/
