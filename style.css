@@ -24,7 +24,7 @@ body {
 }
 
 .principal {
-  width: 85vw;
+  width: 90vw;
   align-items: center;
   justify-content: center;
   align-self: center;
@@ -45,13 +45,13 @@ header {
   height: 42px;
 }
 
-ul {
+.links ul {
   display: flex;
   list-style: none;
   color: #0a2640;
 }
 
-li + li {
+.links li + li {
   margin-left: 2.5rem;
 }
 
@@ -262,7 +262,7 @@ li + li {
 }
 /*quarta sessão*/
 .section-quatro {
-  width: 85vw;
+  width: 90vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,6 +334,70 @@ form {
 }
 /*quarta sessão*/
 
+/*quinta sessão*/
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.footer-boldo {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.footer-boldo .boldo {
+  margin-bottom: 40px;
+}
+
+.footer-boldo p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #777777;
+}
+
+.footer-boldo p:not(:first-child) {
+  margin-top: 64px;
+}
+
+.footer-sobre {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer-li-top {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 32px;
+}
+
+.footer-li {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #777777;
+  margin-bottom: 32px;
+  margin-right: 10px;
+}
+
+.footer-verde {
+  background: #65e4a3;
+  padding: 3px 14px;
+  border-radius: 120px;
+  font-size: 13px;
+  color: #0a2640;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/*quinta sessão*/
+
 /*media da segunda sessão*/
 
 @media (max-width: 1024px) {
@@ -380,7 +444,7 @@ form {
 }
 
 @media (max-width: 660px) {
-  li + li {
+  .links li + li {
     margin-left: 2rem;
   }
   .titulo {
@@ -461,3 +525,22 @@ form {
   }
 }
 /*media da quarta sessão*/
+
+/*media da quinta sessão*/
+@media (max-width: 738px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .footer-li {
+    display: none;
+  }
+  .footer-li-top {
+    margin-bottom: 5px;
+  }
+  .footer-boldo {
+    margin-bottom: 20px;
+  }
+}
