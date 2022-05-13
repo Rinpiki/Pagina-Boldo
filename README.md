@@ -8,8 +8,8 @@ Boldo é uma simples pagina web feita para colocar os meus conhecimentos em prat
 </h4>
 
 ## 🔧Tecnologias
-- [html]()
-- [css]()
+- [html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [css](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [Prettier](https://prettier.io/)
 ## 🔗Referência
 
