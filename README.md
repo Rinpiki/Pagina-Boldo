@@ -16,4 +16,4 @@ Boldo é uma simples pagina web feita para colocar os meus conhecimentos em prat
  - [Template](https://www.figma.com/file/Rx7dQHwtc6hQuvOuysOFWy/Boldo---Edgar-Allan)
  
  ## 🏗️Site 
- https://fantastic-puffpuff-3a816f.netlify.app
+ - https://fantastic-puffpuff-3a816f.netlify.app
