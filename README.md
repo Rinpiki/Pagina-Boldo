@@ -1,8 +1,9 @@
 
 ## BOLDO
 ![demo](https://raw.githubusercontent.com/Rinpiki/Pagina-Boldo/master/img/Demo.png)
-
+<h4 align="center"> 
 Boldo é uma simples pagina web feita para colocar os meus conhecimentos em pratica.
+</h4>	
 <h4 align="center"> 
 	🚧  Boldo 🚀 Em construção... 🚧
 </h4>
