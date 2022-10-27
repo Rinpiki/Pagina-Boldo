@@ -4,9 +4,7 @@
 <h4 align="center"> 
 Boldo é uma simples pagina web feita para colocar os meus conhecimentos em pratica.
 </h4>	
-<h4 align="center"> 
-	🚧Boldo 🚀 Em construção... 🚧
-</h4>
+
 
 ## 🔧Tecnologias
 - [html](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
